@@ -1,0 +1,36 @@
+#image-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    .common-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .pagination-box{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .table-container{
+        flex: 1;
+        width: 100%;
+    }
+    .image-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: nowrap;
+        .img-item{
+            //width: calc(100% / 5);
+            height: calc(100vh / 4);
+        }
+    }
+}

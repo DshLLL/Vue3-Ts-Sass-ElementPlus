@@ -1,0 +1,16 @@
+.imgBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.imgItem{
+  width: calc(100% / 5);
+}
+.imgContent{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
